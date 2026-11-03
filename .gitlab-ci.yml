@@ -1,0 +1,35 @@
+# GitLab CI: mirrors .github/workflows/ci.yml
+stages: [test, docker]
+
+test:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.64.1-noble
+  variables:
+    npm_config_cache: "$CI_PROJECT_DIR/.npm"
+  cache:
+    key: { files: [package-lock.json] }
+    paths: [.npm/]
+  before_script:
+    - node --version
+    - npm ci
+  script:
+    - npm run check
+    - npm test
+    - npx playwright install chromium
+    - npm run test:e2e
+    - npm audit --omit=dev --audit-level=high
+  artifacts:
+    when: on_failure
+    paths: [playwright-report/]
+    expire_in: 1 week
+
+docker:
+  stage: docker
+  image: docker:27
+  services: [docker:27-dind]
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+  script:
+    - docker build -t halyard:ci .
+    - docker run -d --name hy -p 8787:8787 -e ENCRYPTION_KEY=$(head -c 32 /dev/urandom | base64) halyard:ci
+    - for i in $(seq 1 20); do wget -qO- http://docker:8787/api/health && exit 0; sleep 1; done; docker logs hy; exit 1

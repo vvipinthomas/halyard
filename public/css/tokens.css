@@ -1,0 +1,63 @@
+/* Harbor — Halyard design tokens.
+   Primitive scales first, then semantic tokens that components use. Change semantic tokens to re-theme. */
+:root {
+  /* primitives: colour */
+  --navy-950: #0b1020; --navy-900: #111830; --navy-850: #161f3b; --navy-800: #1c2747; --navy-700: #28355c; --navy-500: #5b6890; --navy-300: #a7b0cc; --navy-100: #e6e9f3; --navy-50: #f4f6fb;
+  --coral-600: #e2523f; --coral-500: #ff6b5a; --coral-300: #ffa99e; --coral-100: #ffe6e2;
+  --sea-600: #2350c8; --sea-500: #3b6cf0; --sea-300: #8fb0ff; --sea-100: #e3ebff;
+  --kelp-600: #128a55; --kelp-500: #1fae6c; --kelp-100: #dcf6e9;
+  --sun-600: #b87400; --sun-500: #f0a823; --sun-100: #fff1d6;
+  --rose-600: #c93a3a; --rose-500: #ef5a5a; --rose-100: #fde3e3;
+  --white: #ffffff;
+
+  /* primitives: space (4px grid), radius, type, motion, elevation */
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 20px; --sp-6: 24px; --sp-8: 32px; --sp-10: 40px; --sp-12: 48px;
+  --r-sm: 8px; --r-md: 12px; --r-lg: 16px; --r-xl: 22px; --r-pill: 999px;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-display: ui-rounded, "SF Pro Rounded", "Nunito", var(--font-sans);
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  --fs-xs: .75rem; --fs-sm: .8125rem; --fs-md: .9375rem; --fs-lg: 1.0625rem; --fs-xl: 1.25rem; --fs-2xl: 1.625rem; --fs-3xl: 2.125rem;
+  --lh-tight: 1.2; --lh-body: 1.55;
+  --dur-fast: 120ms; --dur-base: 200ms; --dur-slow: 320ms;
+  --ease-out: cubic-bezier(.2, .8, .2, 1); --ease-spring: cubic-bezier(.34, 1.56, .64, 1);
+  --z-nav: 20; --z-drawer: 30; --z-modal: 40; --z-palette: 45; --z-toast: 50;
+
+  /* semantic: light theme */
+  --bg: var(--navy-50); --bg-raised: var(--white); --bg-sunken: #eceff7; --bg-hover: #eef1f8; --bg-inverse: var(--navy-900);
+  --fg: var(--navy-900); --fg-muted: var(--navy-500); --fg-subtle: #8a93b0; --fg-inverse: var(--white); --fg-on-brand: var(--white);
+  --border: #dfe3ee; --border-strong: #c7cee0;
+  --brand: var(--coral-500); --brand-hover: var(--coral-600); --brand-soft: var(--coral-100);
+  --accent: var(--sea-500); --accent-soft: var(--sea-100);
+  --success: var(--kelp-600); --success-soft: var(--kelp-100);
+  --warning: var(--sun-600); --warning-soft: var(--sun-100);
+  --danger: var(--rose-600); --danger-soft: var(--rose-100);
+  --focus: 0 0 0 3px color-mix(in srgb, var(--accent) 45%, transparent);
+  --shadow-1: 0 1px 2px rgba(17, 24, 48, .06), 0 1px 1px rgba(17, 24, 48, .04);
+  --shadow-2: 0 4px 14px rgba(17, 24, 48, .08), 0 1px 3px rgba(17, 24, 48, .06);
+  --shadow-3: 0 18px 50px rgba(17, 24, 48, .18), 0 4px 12px rgba(17, 24, 48, .08);
+  --gradient-hero: radial-gradient(1200px 300px at 0% 0%, color-mix(in srgb, var(--brand) 14%, transparent), transparent 60%), radial-gradient(900px 260px at 100% 0%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 60%);
+  --mascot-outline: transparent;
+  color-scheme: light;
+}
+
+/* semantic: dark theme (system preference unless the user picked light) */
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: var(--navy-950); --bg-raised: var(--navy-900); --bg-sunken: #0e1428; --bg-hover: var(--navy-850); --bg-inverse: var(--navy-100);
+  --fg: #eaeefa; --fg-muted: var(--navy-300); --fg-subtle: #7c87a8; --fg-inverse: var(--navy-950);
+  --border: var(--navy-800); --border-strong: var(--navy-700);
+  --brand: #ff7b6b; --brand-hover: #ff9184; --brand-soft: #3a2026; --accent: var(--sea-300); --accent-soft: #1b2850;
+  --success: #43d08d; --success-soft: #11301f; --warning: #f5bd4f; --warning-soft: #33280f; --danger: #ff7a7a; --danger-soft: #3a1717;
+  --shadow-1: none; --shadow-2: 0 6px 20px rgba(0, 0, 0, .35); --shadow-3: 0 24px 60px rgba(0, 0, 0, .55);
+  --mascot-outline: rgba(255, 255, 255, .28);
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: var(--navy-950); --bg-raised: var(--navy-900); --bg-sunken: #0e1428; --bg-hover: var(--navy-850); --bg-inverse: var(--navy-100);
+  --fg: #eaeefa; --fg-muted: var(--navy-300); --fg-subtle: #7c87a8; --fg-inverse: var(--navy-950);
+  --border: var(--navy-800); --border-strong: var(--navy-700);
+  --brand: #ff7b6b; --brand-hover: #ff9184; --brand-soft: #3a2026; --accent: var(--sea-300); --accent-soft: #1b2850;
+  --success: #43d08d; --success-soft: #11301f; --warning: #f5bd4f; --warning-soft: #33280f; --danger: #ff7a7a; --danger-soft: #3a1717;
+  --shadow-1: none; --shadow-2: 0 6px 20px rgba(0, 0, 0, .35); --shadow-3: 0 24px 60px rgba(0, 0, 0, .55);
+  --mascot-outline: rgba(255, 255, 255, .28);
+  color-scheme: dark;
+}
+@media (prefers-reduced-motion: reduce) { :root { --dur-fast: 0ms; --dur-base: 0ms; --dur-slow: 0ms; } }

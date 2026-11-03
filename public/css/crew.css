@@ -1,0 +1,96 @@
+/* ---------- animated crew ---------- */
+.crew { display: inline-block; line-height: 0; flex: none; }
+.crew svg { overflow: visible; }
+.crew svg.tiled { border-radius: 28%; }
+.crew .m-badge { transition: transform var(--dur-base) var(--ease-spring); transform-box: view-box; }
+.agent:hover .crew .m-badge, .crew-stage .member:hover .m-badge { transform: scale(1.12); }
+.crew :is(.m-all, .m-eyes, .m-pupils, .m-closed, .m-smile, .m-talk, .m-frown, .m-gear, .fx) { transform-box: fill-box; transform-origin: center; }
+.crew .m-all { transform-origin: 50% 90%; animation: m-breathe 3.2s ease-in-out infinite; animation-delay: var(--phase); }
+.crew .m-eyes { animation: m-blink var(--blink) infinite; }
+.crew .m-pupils { animation: m-look var(--look) ease-in-out infinite; animation-delay: var(--phase); }
+.crew .m-closed, .crew .m-talk, .crew .m-frown, .crew .fx { opacity: 0; }
+.crew .fx { transition: opacity .25s; }
+.crew .fx-think circle { fill: var(--fg-muted); }
+
+@keyframes m-breathe { 50% { transform: scale(1.03, .975) translateY(1px); } }
+@keyframes m-blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+@keyframes m-look { 0%, 30%, 100% { transform: translate(0, 0); } 40%, 55% { transform: translate(2px, -.5px); } 65%, 80% { transform: translate(-2px, .5px); } }
+@keyframes m-bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px) rotate(-2deg); } }
+@keyframes m-jump { 0%, 100% { transform: translateY(0) scale(1); } 20% { transform: translateY(1px) scale(1.05, .92); } 50% { transform: translateY(-12px) scale(.96, 1.05); } 80% { transform: translateY(0) scale(1.04, .95); } }
+@keyframes m-wiggle { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-3deg); } 75% { transform: rotate(3deg); } }
+@keyframes m-talk { 0%, 100% { transform: scaleY(.35); } 50% { transform: scaleY(1); } }
+@keyframes m-float { 0%, 100% { transform: translateY(0); opacity: .9; } 50% { transform: translateY(-4px); opacity: 1; } }
+@keyframes m-pop { 0% { transform: scale(.4); opacity: 0; } 40% { transform: scale(1.2); opacity: 1; } 100% { transform: scale(1) translateY(-6px); opacity: 0; } }
+@keyframes m-spin { to { transform: rotate(360deg); } }
+@keyframes m-drip { 0% { transform: translateY(0); opacity: 0; } 30% { opacity: 1; } 100% { transform: translateY(10px); opacity: 0; } }
+@keyframes m-droop { 50% { transform: translateY(2px) scale(1.02, .97); } }
+@keyframes m-dots { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
+
+/* thinking: eyes up, thought bubbles pulse */
+.crew[data-state="thinking"] .m-pupils { animation: none; transform: translate(1.5px, -2.5px); }
+.crew[data-state="thinking"] .fx-think { opacity: 1; }
+.crew[data-state="thinking"] .fx-think circle { animation: m-dots 1.2s infinite; }
+.crew[data-state="thinking"] .fx-think circle:nth-child(2) { animation-delay: .2s; }
+.crew[data-state="thinking"] .fx-think circle:nth-child(3) { animation-delay: .4s; }
+/* working: busy bounce with sparkles */
+.crew[data-state="working"] .m-all { animation: m-bounce .6s ease-in-out infinite; }
+.crew[data-state="working"] .fx-spark { opacity: 1; animation: m-float .8s ease-in-out infinite; }
+/* tool: spinning gear */
+.crew[data-state="tool"] .m-all { animation: m-bounce .9s ease-in-out infinite; }
+.crew[data-state="tool"] .fx-tool { opacity: 1; }
+.crew[data-state="tool"] .m-gear { animation: m-spin 1.2s linear infinite; }
+/* talking: mouth flaps */
+.crew[data-state="talking"] .m-smile { opacity: 0; }
+.crew[data-state="talking"] .m-talk { opacity: 1; animation: m-talk .22s ease-in-out infinite; }
+/* happy: jump, happy eyes, heart */
+.crew[data-state="happy"] .m-all { animation: m-jump .7s ease-out 2; }
+.crew[data-state="happy"] .m-eyes { opacity: 0; animation: none; }
+.crew[data-state="happy"] .m-closed { opacity: 1; transform: scaleY(-1); }
+.crew[data-state="happy"] .fx-heart { animation: m-pop 1.4s ease-out forwards; }
+/* sad: droop, frown, tear */
+.crew[data-state="sad"] .m-all { animation: m-droop 2.4s ease-in-out infinite; }
+.crew[data-state="sad"] .m-smile { opacity: 0; }
+.crew[data-state="sad"] .m-frown { opacity: 1; }
+.crew[data-state="sad"] .m-pupils { animation: none; transform: translateY(1.5px); }
+.crew[data-state="sad"] .fx-tear { animation: m-drip 1.6s ease-in infinite; }
+/* sleeping: closed eyes, slow breathing, zzz */
+.crew[data-state="sleeping"] .m-all { animation-duration: 5s; }
+.crew[data-state="sleeping"] .m-eyes { opacity: 0; animation: none; }
+.crew[data-state="sleeping"] .m-closed { opacity: 1; }
+.crew[data-state="sleeping"] .fx-zzz { opacity: 1; animation: m-float 2.4s ease-in-out infinite; }
+/* arms: rotate about the shoulder (local origin of each arm group) */
+.crew .m-arm { transition: transform var(--dur-slow) var(--ease-spring); }
+@keyframes m-wave { 0%, 100% { transform: rotate(-150deg); } 50% { transform: rotate(-115deg); } }
+@keyframes m-type-l { 0%, 100% { transform: rotate(-30deg); } 50% { transform: rotate(-12deg); } }
+@keyframes m-type-r { 0%, 100% { transform: rotate(14deg); } 50% { transform: rotate(32deg); } }
+/* waving (and hover): raise the right arm and wave hello */
+.crew[data-state="waving"] .m-arm-r,
+.agent:hover .crew[data-state="idle"] .m-arm-r,
+.crew-stage .member:hover .crew[data-state="idle"] .m-arm-r { animation: m-wave .45s ease-in-out 4; transform: rotate(-150deg); }
+.crew[data-state="waving"] .m-all { animation: m-wiggle 1.8s ease-in-out infinite; }
+/* working: arms tap like typing */
+.crew[data-state="working"] .m-arm-l { animation: m-type-l .32s ease-in-out infinite; }
+.crew[data-state="working"] .m-arm-r { animation: m-type-r .32s ease-in-out infinite .16s; }
+/* tool: one arm reaches up to the gear */
+.crew[data-state="tool"] .m-arm-r { transform: rotate(-125deg); }
+/* happy: both arms up */
+.crew[data-state="happy"] .m-arm-l { transform: rotate(140deg); }
+.crew[data-state="happy"] .m-arm-r { transform: rotate(-140deg); }
+/* thinking: hand to chin */
+.crew[data-state="thinking"] .m-arm-r { transform: rotate(146deg); }
+/* sad / sleeping: arms hang in */
+.crew[data-state="sad"] .m-arm-l, .crew[data-state="sleeping"] .m-arm-l { transform: rotate(-14deg); }
+.crew[data-state="sad"] .m-arm-r, .crew[data-state="sleeping"] .m-arm-r { transform: rotate(14deg); }
+
+/* run stage: the participating crew line up */
+.crew-stage { display: flex; gap: 14px; flex-wrap: wrap; align-items: flex-end; padding: 12px; border-radius: 14px; background: linear-gradient(180deg, var(--surface-2), transparent); margin-bottom: 12px; }
+.crew-stage .member { display: flex; flex-direction: column; align-items: center; gap: 4px; width: 84px; text-align: center; }
+.crew-stage .member .tag { font-size: .7rem; color: var(--fg-muted); line-height: 1.2; }
+.crew-stage .member .status { font-size: .65rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--accent); min-height: 1em; }
+.crew-stage .member[data-active="1"] .tag { color: var(--ink); font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+  .crew *, .crew .m-all { animation: none !important; transition: none !important; }
+}
+/* overlapping avatar stacks: badges would be half-covered, so show the character only */
+.hero .lineup .m-badge, .auth .lineup .m-badge { display: none; }

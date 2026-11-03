@@ -1,0 +1,3126 @@
+{
+ "verifiedAt": "2026-11-01",
+ "method": "Package existence confirmed via registry.npmjs.org / pypi.org JSON APIs; npm candidates ranked by monthly downloads",
+ "servers": [
+  {
+   "name": "@antv/mcp-server-chart",
+   "eco": "npm",
+   "desc": "A Model Context Protocol server for generating charts using AntV. This is a TypeScript-based MCP server that provides chart generation capabilities. It allows y",
+   "repo": "https://github.com/antvis/mcp-server-chart",
+   "monthly": 29484,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@antv/mcp-server-chart"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@antv/mcp-server-chart"
+  },
+  {
+   "name": "@kimtaeyoon83/mcp-server-youtube-transcript",
+   "eco": "npm",
+   "desc": "This is an MCP server that allows you to directly download transcripts of YouTube videos.",
+   "repo": "",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@kimtaeyoon83/mcp-server-youtube-transcript"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@kimtaeyoon83/mcp-server-youtube-transcript"
+  },
+  {
+   "name": "@llmindset/mcp-hfspace",
+   "eco": "npm",
+   "desc": "MCP Server to connect to Hugging Face spaces. Simple configuration, Claude Desktop friendly.",
+   "repo": "https://github.com/evalstate/mcp-hfspace",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@llmindset/mcp-hfspace"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@llmindset/mcp-hfspace"
+  },
+  {
+   "name": "@mapbox/mcp-server",
+   "eco": "npm",
+   "desc": "Mapbox MCP server.",
+   "repo": "https://github.com/mapbox/mcp-server",
+   "monthly": 11405,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mapbox/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@mapbox/mcp-server"
+  },
+  {
+   "name": "@modelcontextprotocol/server-everart",
+   "eco": "npm",
+   "desc": "MCP server for EverArt API integration",
+   "repo": "",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-everart"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-everart"
+  },
+  {
+   "name": "@modelcontextprotocol/server-everything",
+   "eco": "npm",
+   "desc": "MCP server that exercises all the features of the MCP protocol",
+   "repo": "https://github.com/modelcontextprotocol/servers",
+   "monthly": 920970,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-everything"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-everything"
+  },
+  {
+   "name": "@modelcontextprotocol/server-google-maps",
+   "eco": "npm",
+   "desc": "MCP server for using the Google Maps API",
+   "repo": "",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-google-maps"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-google-maps"
+  },
+  {
+   "name": "@modelcontextprotocol/server-memory",
+   "eco": "npm",
+   "desc": "MCP server for enabling memory for Claude through a knowledge graph",
+   "repo": "https://github.com/modelcontextprotocol/servers",
+   "monthly": 732786,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-memory"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-memory"
+  },
+  {
+   "name": "@modelcontextprotocol/server-pdf",
+   "eco": "npm",
+   "desc": "MCP server for loading and extracting text from PDF files with chunked pagination and interactive viewer",
+   "repo": "https://github.com/modelcontextprotocol/ext-apps",
+   "monthly": 3210834,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-pdf"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-pdf"
+  },
+  {
+   "name": "@modelcontextprotocol/server-sequential-thinking",
+   "eco": "npm",
+   "desc": "MCP server for sequential thinking and problem solving",
+   "repo": "https://github.com/modelcontextprotocol/servers",
+   "monthly": 618199,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-sequential-thinking"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-sequential-thinking"
+  },
+  {
+   "name": "@translated/lara-mcp",
+   "eco": "npm",
+   "desc": "Lara API official MCP server",
+   "repo": "https://github.com/translated/lara-mcp",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@translated/lara-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@translated/lara-mcp"
+  },
+  {
+   "name": "@vapi-ai/mcp-server",
+   "eco": "npm",
+   "desc": "Build AI voice assistants and phone agents with Vapi through the Model Context Protocol",
+   "repo": "https://github.com/VapiAI/mcp-server",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@vapi-ai/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@vapi-ai/mcp-server"
+  },
+  {
+   "name": "elevenlabs-mcp",
+   "eco": "pypi",
+   "desc": "ElevenLabs MCP Server",
+   "repo": "",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "elevenlabs-mcp"
+    ]
+   },
+   "source": "https://pypi.org/project/elevenlabs-mcp/"
+  },
+  {
+   "name": "gemini-mcp-tool",
+   "eco": "npm",
+   "desc": "MCP server for Gemini CLI integration",
+   "repo": "https://github.com/jamubc/gemini-mcp-tool",
+   "monthly": 11751,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "gemini-mcp-tool"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/gemini-mcp-tool"
+  },
+  {
+   "name": "markitdown-mcp",
+   "eco": "pypi",
+   "desc": "An MCP server for the \"markitdown\" library.",
+   "repo": "https://github.com/microsoft/markitdown#readme",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "markitdown-mcp"
+    ]
+   },
+   "source": "https://pypi.org/project/markitdown-mcp/"
+  },
+  {
+   "name": "mcp-server-time",
+   "eco": "pypi",
+   "desc": "A Model Context Protocol server providing tools for time queries and timezone conversions for LLMs",
+   "repo": "https://github.com/modelcontextprotocol/servers/issues",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-time"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-server-time/"
+  },
+  {
+   "name": "mcp-youtube-transcript",
+   "eco": "pypi",
+   "desc": "MCP server retrieving transcripts of YouTube videos",
+   "repo": "",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-youtube-transcript"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-youtube-transcript/"
+  },
+  {
+   "name": "minimax-mcp",
+   "eco": "pypi",
+   "desc": "Minimax MCP Server",
+   "repo": "",
+   "monthly": null,
+   "category": "AI & Media",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "minimax-mcp"
+    ]
+   },
+   "source": "https://pypi.org/project/minimax-mcp/"
+  },
+  {
+   "name": "replicate-mcp",
+   "eco": "npm",
+   "desc": "Official MCP server for Replicate's HTTP API",
+   "repo": "https://github.com/replicate/replicate-typescript-stainless",
+   "monthly": 36263,
+   "category": "AI & Media",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "replicate-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/replicate-mcp"
+  },
+  {
+   "name": "@executeautomation/playwright-mcp-server",
+   "eco": "npm",
+   "desc": "Model Context Protocol servers for Playwright",
+   "repo": "https://github.com/executeautomation/mcp-playwright",
+   "monthly": null,
+   "category": "Browser & Testing",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@executeautomation/playwright-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@executeautomation/playwright-mcp-server"
+  },
+  {
+   "name": "@playwright/mcp",
+   "eco": "npm",
+   "desc": "Playwright Tools for MCP",
+   "repo": "https://github.com/microsoft/playwright-mcp",
+   "monthly": null,
+   "category": "Browser & Testing",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@playwright/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@playwright/mcp"
+  },
+  {
+   "name": "axe-mcp-server",
+   "eco": "npm",
+   "desc": "Axe DevTools accessibility analysis and remediation MCP Server for AI coding agents",
+   "repo": "https://github.com/dequelabs/axe-mcp-server-public",
+   "monthly": 37213,
+   "category": "Browser & Testing",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "axe-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/axe-mcp-server"
+  },
+  {
+   "name": "chrome-devtools-mcp",
+   "eco": "npm",
+   "desc": "MCP server for Chrome DevTools",
+   "repo": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "monthly": 7461452,
+   "category": "Browser & Testing",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "chrome-devtools-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/chrome-devtools-mcp"
+  },
+  {
+   "name": "figma-console-mcp",
+   "eco": "npm",
+   "desc": "The most comprehensive MCP server for Figma \u2014 design tokens, variables, components, write tools, version history diff, accessibility audits, FigJam, Slides, and",
+   "repo": "https://github.com/southleft/figma-console-mcp",
+   "monthly": 105753,
+   "category": "Browser & Testing",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "figma-console-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/figma-console-mcp"
+  },
+  {
+   "name": "@hubspot/mcp-server",
+   "eco": "npm",
+   "desc": "MCP Server for developers building HubSpot Apps",
+   "repo": "",
+   "monthly": null,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@hubspot/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@hubspot/mcp-server"
+  },
+  {
+   "name": "@paypal/mcp",
+   "eco": "npm",
+   "desc": "A command line tool for setting up PayPal MCP server",
+   "repo": "",
+   "monthly": null,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@paypal/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@paypal/mcp"
+  },
+  {
+   "name": "@salesforce/b2c-dx-mcp",
+   "eco": "npm",
+   "desc": "MCP server for B2C Commerce developer experience tools",
+   "repo": "https://github.com/SalesforceCommerceCloud/b2c-developer-tooling",
+   "monthly": 10182,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@salesforce/b2c-dx-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@salesforce/b2c-dx-mcp"
+  },
+  {
+   "name": "@salesforce/mcp",
+   "eco": "npm",
+   "desc": "MCP Server for interacting with Salesforce instances",
+   "repo": "https://github.com/salesforcecli/mcp",
+   "monthly": 105303,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@salesforce/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@salesforce/mcp"
+  },
+  {
+   "name": "@stripe/mcp",
+   "eco": "npm",
+   "desc": "A command line tool for setting up Stripe MCP server",
+   "repo": "https://github.com/stripe/ai",
+   "monthly": 73405,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@stripe/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@stripe/mcp"
+  },
+  {
+   "name": "@twilio-alpha/mcp",
+   "eco": "npm",
+   "desc": "This is a Model Context Protocol server that exposes all of Twilio APIs.",
+   "repo": "",
+   "monthly": null,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@twilio-alpha/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@twilio-alpha/mcp"
+  },
+  {
+   "name": "@wix/mcp",
+   "eco": "npm",
+   "desc": "A Model Context Protocol server for Wix AI tools",
+   "repo": "",
+   "monthly": null,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@wix/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@wix/mcp"
+  },
+  {
+   "name": "@xeroapi/xero-mcp-server",
+   "eco": "npm",
+   "desc": "MCP server implementation for Xero integration",
+   "repo": "git://github.com/XeroAPI/xero-mcp-server",
+   "monthly": 110071,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@xeroapi/xero-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@xeroapi/xero-mcp-server"
+  },
+  {
+   "name": "hubspot-mcp-server",
+   "eco": "npm",
+   "desc": "A powerful Model Context Protocol (MCP) server implementation for seamless HubSpot CRM integration, enabling AI assistants to interact with your HubSpot data",
+   "repo": "",
+   "monthly": null,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "hubspot-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/hubspot-mcp-server"
+  },
+  {
+   "name": "square-mcp-server",
+   "eco": "npm",
+   "desc": "MCP Server for Square API",
+   "repo": "",
+   "monthly": null,
+   "category": "Business & Payments",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "square-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/square-mcp-server"
+  },
+  {
+   "name": "@azure-devops/mcp",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Azure DevOps",
+   "repo": "https://github.com/microsoft/azure-devops-mcp",
+   "monthly": 540297,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@azure-devops/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@azure-devops/mcp"
+  },
+  {
+   "name": "@azure/mcp",
+   "eco": "npm",
+   "desc": "Azure MCP Server - Model Context Protocol implementation for Azure",
+   "repo": "https://github.com/microsoft/mcp",
+   "monthly": 545207,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@azure/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@azure/mcp"
+  },
+  {
+   "name": "@bitwarden/mcp-server",
+   "eco": "npm",
+   "desc": "Bitwarden MCP Server",
+   "repo": "https://github.com/bitwarden/mcp-server",
+   "monthly": 9432,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@bitwarden/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@bitwarden/mcp-server"
+  },
+  {
+   "name": "@cloudflare/mcp-server-cloudflare",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Cloudflare API",
+   "repo": "",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@cloudflare/mcp-server-cloudflare"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@cloudflare/mcp-server-cloudflare"
+  },
+  {
+   "name": "@dopplerhq/mcp-server",
+   "eco": "npm",
+   "desc": "MCP server for Doppler API with auto-generated tools from OpenAPI specification",
+   "repo": "https://github.com/DopplerHQ/mcp-server",
+   "monthly": 13669,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@dopplerhq/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@dopplerhq/mcp-server"
+  },
+  {
+   "name": "@google-cloud/cloud-run-mcp",
+   "eco": "npm",
+   "desc": "Cloud Run MCP deployment tool",
+   "repo": "https://github.com/GoogleCloudPlatform/cloud-run-mcp",
+   "monthly": 34119,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@google-cloud/cloud-run-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@google-cloud/cloud-run-mcp"
+  },
+  {
+   "name": "@google-cloud/gcloud-mcp",
+   "eco": "npm",
+   "desc": "Model Context Protocol (MCP) Server for interacting with GCP APIs",
+   "repo": "https://github.com/googleapis/gcloud-mcp",
+   "monthly": 240210,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@google-cloud/gcloud-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@google-cloud/gcloud-mcp"
+  },
+  {
+   "name": "@google-cloud/observability-mcp",
+   "eco": "npm",
+   "desc": "MCP Server for GCP environment for interacting with various Observability APIs.",
+   "repo": "https://github.com/googleapis/gcloud-mcp",
+   "monthly": 235503,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@google-cloud/observability-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@google-cloud/observability-mcp"
+  },
+  {
+   "name": "@google-cloud/storage-mcp",
+   "eco": "npm",
+   "desc": "Model Context Protocol (MCP) Server for interacting with GCS APIs",
+   "repo": "https://github.com/googleapis/gcloud-mcp",
+   "monthly": 194158,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@google-cloud/storage-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@google-cloud/storage-mcp"
+  },
+  {
+   "name": "@heroku/mcp-server",
+   "eco": "npm",
+   "desc": "Heroku Platform MCP Server",
+   "repo": "https://github.com/heroku/heroku-mcp-server",
+   "monthly": 34943,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@heroku/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@heroku/mcp-server"
+  },
+  {
+   "name": "@infisical/mcp",
+   "eco": "npm",
+   "desc": "Official Infisical MCP Server",
+   "repo": "https://github.com/Infisical/infisical-mcp-server",
+   "monthly": 9717,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@infisical/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@infisical/mcp"
+  },
+  {
+   "name": "@modelcontextprotocol/server-aws-kb-retrieval",
+   "eco": "npm",
+   "desc": "MCP server for AWS Knowledge Base retrieval using Bedrock Agent Runtime",
+   "repo": "",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-aws-kb-retrieval"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-aws-kb-retrieval"
+  },
+  {
+   "name": "@netlify/mcp",
+   "eco": "npm",
+   "desc": "[Netlify MCP Server](https://docs.netlify.com/welcome/build-with-ai/netlify-mcp-server/) follows the [Model Context Protocol (MCP)](https://modelcontextprotocol",
+   "repo": "https://github.com/netlify/netlify-mcp",
+   "monthly": 174869,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@netlify/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@netlify/mcp"
+  },
+  {
+   "name": "@octopusdeploy/mcp-server",
+   "eco": "npm",
+   "desc": "The Octopus MCP Server provides your AI assistant with powerful tools that allow it to inspect, query, and diagnose problems within your Octopus instance.",
+   "repo": "https://github.com/OctopusDeploy/mcp-server",
+   "monthly": 8171,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@octopusdeploy/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@octopusdeploy/mcp-server"
+  },
+  {
+   "name": "@pulumi/mcp-server",
+   "eco": "npm",
+   "desc": "A server implementing the Model Context Protocol for Pulumi.",
+   "repo": "",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@pulumi/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@pulumi/mcp-server"
+  },
+  {
+   "name": "@tiberriver256/mcp-server-azure-devops",
+   "eco": "npm",
+   "desc": "Azure DevOps reference server for the Model Context Protocol (MCP)",
+   "repo": "https://github.com/Tiberriver256/mcp-server-azure-devops",
+   "monthly": 36686,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@tiberriver256/mcp-server-azure-devops"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@tiberriver256/mcp-server-azure-devops"
+  },
+  {
+   "name": "@upstash/context7-mcp",
+   "eco": "npm",
+   "desc": "MCP server for Context7",
+   "repo": "https://github.com/upstash/context7",
+   "monthly": 2607063,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@upstash/context7-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@upstash/context7-mcp"
+  },
+  {
+   "name": "@upstash/mcp-server",
+   "eco": "npm",
+   "desc": "MCP server for Upstash",
+   "repo": "https://github.com/upstash/mcp-server",
+   "monthly": 7433,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@upstash/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@upstash/mcp-server"
+  },
+  {
+   "name": "argocd-mcp",
+   "eco": "npm",
+   "desc": "Argo CD MCP Server",
+   "repo": "https://github.com/argoproj-labs/mcp-for-argocd",
+   "monthly": 88082,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "argocd-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/argocd-mcp"
+  },
+  {
+   "name": "aws-s3-mcp",
+   "eco": "npm",
+   "desc": "MCP Server for S3",
+   "repo": "https://github.com/samuraikun/aws-s3-mcp",
+   "monthly": 13650,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "aws-s3-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/aws-s3-mcp"
+  },
+  {
+   "name": "awslabs.aws-api-mcp-server",
+   "eco": "pypi",
+   "desc": "Model Context Protocol (MCP) server for interacting with AWS",
+   "repo": "https://github.com/awslabs/mcp/blob/main/src/aws-api-mcp-server/CHANGELOG.md",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.aws-api-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.aws-api-mcp-server/"
+  },
+  {
+   "name": "awslabs.aws-documentation-mcp-server",
+   "eco": "pypi",
+   "desc": "An AWS Labs Model Context Protocol (MCP) server for AWS Documentation",
+   "repo": "https://github.com/awslabs/mcp/issues",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.aws-documentation-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.aws-documentation-mcp-server/"
+  },
+  {
+   "name": "awslabs.bedrock-kb-retrieval-mcp-server",
+   "eco": "pypi",
+   "desc": "An AWS Labs Model Context Protocol (MCP) server for Bedrock Knowledge Base Retrieval",
+   "repo": "https://github.com/awslabs/mcp/issues",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.bedrock-kb-retrieval-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.bedrock-kb-retrieval-mcp-server/"
+  },
+  {
+   "name": "awslabs.cloudwatch-mcp-server",
+   "eco": "pypi",
+   "desc": "An AWS Labs Model Context Protocol (MCP) server for cloudwatch",
+   "repo": "https://github.com/awslabs/mcp/blob/main/src/cloudwatch-mcp-server/CHANGELOG.md",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.cloudwatch-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.cloudwatch-mcp-server/"
+  },
+  {
+   "name": "awslabs.cost-explorer-mcp-server",
+   "eco": "pypi",
+   "desc": "MCP server for analyzing AWS costs and usage data through the AWS Cost Explorer API",
+   "repo": "https://github.com/awslabs/mcp/issues",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.cost-explorer-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.cost-explorer-mcp-server/"
+  },
+  {
+   "name": "awslabs.dynamodb-mcp-server",
+   "eco": "pypi",
+   "desc": "The official MCP Server for interacting with AWS DynamoDB",
+   "repo": "https://github.com/awslabs/mcp/blob/main/src/dynamodb-mcp-server/CHANGELOG.md",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.dynamodb-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.dynamodb-mcp-server/"
+  },
+  {
+   "name": "awslabs.eks-mcp-server",
+   "eco": "pypi",
+   "desc": "An AWS Labs Model Context Protocol (MCP) server for EKS",
+   "repo": "https://github.com/awslabs/mcp/blob/main/src/eks-mcp-server/CHANGELOG.md",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.eks-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.eks-mcp-server/"
+  },
+  {
+   "name": "awslabs.terraform-mcp-server",
+   "eco": "pypi",
+   "desc": "An AWS Labs Model Context Protocol (MCP) server for terraform",
+   "repo": "",
+   "monthly": null,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.terraform-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.terraform-mcp-server/"
+  },
+  {
+   "name": "harness-mcp-v2",
+   "eco": "npm",
+   "desc": "Give AI agents full access to the Harness.io platform \u2014 manage pipelines, deployments, cloud costs, chaos engineering, feature flags, SEI, and 125+ resource typ",
+   "repo": "https://github.com/harness/mcp-server",
+   "monthly": 17061,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "harness-mcp-v2"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/harness-mcp-v2"
+  },
+  {
+   "name": "kubernetes-mcp-server",
+   "eco": "npm",
+   "desc": "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
+   "repo": "https://github.com/containers/kubernetes-mcp-server",
+   "monthly": 90043,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "kubernetes-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/kubernetes-mcp-server"
+  },
+  {
+   "name": "mcp-server-kubernetes",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Kubernetes clusters via kubectl",
+   "repo": "https://github.com/Flux159/mcp-server-kubernetes",
+   "monthly": 39162,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-server-kubernetes"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-server-kubernetes"
+  },
+  {
+   "name": "vercel-mcp",
+   "eco": "npm",
+   "desc": "An MCP server that connects to Vercel API",
+   "repo": "https://github.com/zueai/vercel-api-mcp",
+   "monthly": 13872,
+   "category": "Cloud & DevOps",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "vercel-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/vercel-mcp"
+  },
+  {
+   "name": "@benborla29/mcp-server-mysql",
+   "eco": "npm",
+   "desc": "MCP server for interacting with MySQL databases with write operations support",
+   "repo": "https://github.com/benborla/mcp-server-mysql",
+   "monthly": 55035,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@benborla29/mcp-server-mysql"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@benborla29/mcp-server-mysql"
+  },
+  {
+   "name": "@ergut/mcp-bigquery-server",
+   "eco": "npm",
+   "desc": "MCP server for interacting with BigQuery databases",
+   "repo": "https://github.com/ergut/mcp-bigquery-server",
+   "monthly": 8040,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@ergut/mcp-bigquery-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@ergut/mcp-bigquery-server"
+  },
+  {
+   "name": "@f4ww4z/mcp-mysql-server",
+   "eco": "npm",
+   "desc": "A Model Context Protocol server for MySQL database operations",
+   "repo": "https://github.com/f4ww4z/mcp-mysql-server",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@f4ww4z/mcp-mysql-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@f4ww4z/mcp-mysql-server"
+  },
+  {
+   "name": "@microsoft/postgres-mcp",
+   "eco": "npm",
+   "desc": "PostgreSQL MCP server for AI assistants over the Model Context Protocol.",
+   "repo": "https://github.com/microsoft/postgres-mcp",
+   "monthly": 33235,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@microsoft/postgres-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@microsoft/postgres-mcp"
+  },
+  {
+   "name": "@modelcontextprotocol/server-postgres",
+   "eco": "npm",
+   "desc": "MCP server for interacting with PostgreSQL databases",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-postgres"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-postgres"
+  },
+  {
+   "name": "@modelcontextprotocol/server-redis",
+   "eco": "npm",
+   "desc": "MCP server for using Redis",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-redis"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-redis"
+  },
+  {
+   "name": "@mongodb-js/mcp-tools-mongodb",
+   "eco": "npm",
+   "desc": "MongoDB tools for MongoDB MCP server",
+   "repo": "https://github.com/mongodb-js/mongodb-mcp-server",
+   "monthly": 222777,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mongodb-js/mcp-tools-mongodb"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@mongodb-js/mcp-tools-mongodb"
+  },
+  {
+   "name": "@neondatabase/mcp-server-neon",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Neon Management API and databases",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@neondatabase/mcp-server-neon"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@neondatabase/mcp-server-neon"
+  },
+  {
+   "name": "@pinecone-database/mcp",
+   "eco": "npm",
+   "desc": "Model Context Protocol server for Pinecone - enables AI assistants to interact with Pinecone indexes and documentation",
+   "repo": "https://github.com/pinecone-io/pinecone-mcp",
+   "monthly": 20747,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@pinecone-database/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@pinecone-database/mcp"
+  },
+  {
+   "name": "@supabase/mcp-server-supabase",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Supabase",
+   "repo": "https://github.com/supabase/mcp",
+   "monthly": 330564,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@supabase/mcp-server-supabase"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@supabase/mcp-server-supabase"
+  },
+  {
+   "name": "@tableau/mcp-server",
+   "eco": "npm",
+   "desc": "Helping agents see and understand data.",
+   "repo": "https://github.com/tableau/tableau-mcp",
+   "monthly": 56658,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@tableau/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@tableau/mcp-server"
+  },
+  {
+   "name": "chroma-mcp",
+   "eco": "pypi",
+   "desc": "Chroma MCP Server - Vector Database Integration for LLM Applications",
+   "repo": "https://github.com/chroma-core/chroma-mcp#readme",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "chroma-mcp"
+    ]
+   },
+   "source": "https://pypi.org/project/chroma-mcp/"
+  },
+  {
+   "name": "dbt-mcp",
+   "eco": "pypi",
+   "desc": "A MCP (Model Context Protocol) server for interacting with dbt resources.",
+   "repo": "https://github.com/dbt-labs/dbt-mcp/blob/main/CHANGELOG.md",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "dbt-mcp"
+    ]
+   },
+   "source": "https://pypi.org/project/dbt-mcp/"
+  },
+  {
+   "name": "influxdb-mcp-server",
+   "eco": "npm",
+   "desc": "A Model Context Protocol (MCP) server for InfluxDB that enables Claude and other AI assistants to work with time-series data",
+   "repo": "https://github.com/idoru/influxdb-mcp-server",
+   "monthly": 14234,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "influxdb-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/influxdb-mcp-server"
+  },
+  {
+   "name": "mcp-clickhouse",
+   "eco": "pypi",
+   "desc": "An MCP server for ClickHouse.",
+   "repo": "https://github.com/ClickHouse/mcp-clickhouse",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-clickhouse"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-clickhouse/"
+  },
+  {
+   "name": "mcp-neo4j-cypher",
+   "eco": "pypi",
+   "desc": "A simple Neo4j MCP server",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-neo4j-cypher"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-neo4j-cypher/"
+  },
+  {
+   "name": "mcp-neo4j-memory",
+   "eco": "pypi",
+   "desc": "MCP Neo4j Knowledge Graph Memory Server",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-neo4j-memory"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-neo4j-memory/"
+  },
+  {
+   "name": "mcp-server-motherduck",
+   "eco": "pypi",
+   "desc": "A MCP server for MotherDuck and local DuckDB",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-motherduck"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-server-motherduck/"
+  },
+  {
+   "name": "mcp-server-qdrant",
+   "eco": "pypi",
+   "desc": "MCP server for retrieving context from a Qdrant vector database",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-qdrant"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-server-qdrant/"
+  },
+  {
+   "name": "mcp-server-sqlite",
+   "eco": "pypi",
+   "desc": "A simple SQLite MCP server",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-sqlite"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-server-sqlite/"
+  },
+  {
+   "name": "mcp-server-sqlite-npx",
+   "eco": "npm",
+   "desc": "[![MseeP.ai Security Assessment Badge](https://mseep.net/mseep-audited.png)](http",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-server-sqlite-npx"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-server-sqlite-npx"
+  },
+  {
+   "name": "mcp-snowflake-server",
+   "eco": "pypi",
+   "desc": "A simple Snowflake MCP server",
+   "repo": "",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-snowflake-server"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-snowflake-server/"
+  },
+  {
+   "name": "mcp-weaviate",
+   "eco": "npm",
+   "desc": "MCP server for weaviate integration",
+   "repo": "https://github.com/hlos-ai/mcp-servers",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-weaviate"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-weaviate"
+  },
+  {
+   "name": "mongodb-mcp-server",
+   "eco": "npm",
+   "desc": "MongoDB Model Context Protocol Server",
+   "repo": "https://github.com/mongodb-js/mongodb-mcp-server",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mongodb-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mongodb-mcp-server"
+  },
+  {
+   "name": "mssql-mcp-server",
+   "eco": "npm",
+   "desc": "MCP server for Microsoft SQL Server database access and comprehensive schema exploration using tedious. Includes enhanced stored procedure tools for complete SQ",
+   "repo": "https://github.com/vicagbasi/mssql-mcp",
+   "monthly": 11343,
+   "category": "Data & Databases",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mssql-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mssql-mcp-server"
+  },
+  {
+   "name": "redis-mcp-server",
+   "eco": "pypi",
+   "desc": "Redis MCP Server - Model Context Protocol server for Redis",
+   "repo": "https://github.com/redis/mcp-redis",
+   "monthly": null,
+   "category": "Data & Databases",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "redis-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/redis-mcp-server/"
+  },
+  {
+   "name": "@aashari/mcp-server-atlassian-bitbucket",
+   "eco": "npm",
+   "desc": "Node.js/TypeScript MCP server for Atlassian Bitbucket. Enables AI systems (LLMs) to interact with workspaces, repositories, and pull requests via tools (list, g",
+   "repo": "https://github.com/aashari/mcp-server-atlassian-bitbucket",
+   "monthly": 28767,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@aashari/mcp-server-atlassian-bitbucket"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@aashari/mcp-server-atlassian-bitbucket"
+  },
+  {
+   "name": "@circleci/mcp-server-circleci",
+   "eco": "npm",
+   "desc": "A Model Context Protocol (MCP) server implementation for CircleCI, enabling natural language interactions with CircleCI functionality through MCP-enabled clients",
+   "repo": "https://github.com/CircleCI-Public/mcp-server-circleci",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@circleci/mcp-server-circleci"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@circleci/mcp-server-circleci"
+  },
+  {
+   "name": "@codefuturist/email-mcp",
+   "eco": "npm",
+   "desc": "Email MCP server with IMAP + SMTP support",
+   "repo": "https://github.com/codefuturist/email-mcp",
+   "monthly": 36351,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@codefuturist/email-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@codefuturist/email-mcp"
+  },
+  {
+   "name": "@cyanheads/git-mcp-server",
+   "eco": "npm",
+   "desc": "A secure and scalable Git MCP server enabling AI agents to perform comprehensive Git version control operations via STDIO and Streamable HTTP.",
+   "repo": "https://github.com/cyanheads/git-mcp-server",
+   "monthly": 10839,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@cyanheads/git-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@cyanheads/git-mcp-server"
+  },
+  {
+   "name": "@drawio/mcp",
+   "eco": "npm",
+   "desc": "Official draw.io MCP server for LLMs - Open diagrams in draw.io editor",
+   "repo": "https://github.com/jgraph/drawio-mcp",
+   "monthly": 95038,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@drawio/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@drawio/mcp"
+  },
+  {
+   "name": "@e2b/mcp-server",
+   "eco": "npm",
+   "desc": "A Model Context Protocol server",
+   "repo": "https://github.com/e2b-dev/mcp-server",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@e2b/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@e2b/mcp-server"
+  },
+  {
+   "name": "@googlemaps/code-assist-mcp",
+   "eco": "npm",
+   "desc": "Google Maps Platform Code Assist MCP (Model Context Protocol) service",
+   "repo": "",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@googlemaps/code-assist-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@googlemaps/code-assist-mcp"
+  },
+  {
+   "name": "@kud/mcp-jenkins",
+   "eco": "npm",
+   "desc": "Jenkins MCP server with bearer token authentication support",
+   "repo": "https://github.com/kud/mcp-jenkins",
+   "monthly": 10132,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@kud/mcp-jenkins"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@kud/mcp-jenkins"
+  },
+  {
+   "name": "@modelcontextprotocol/server-github",
+   "eco": "npm",
+   "desc": "MCP server for using the GitHub API",
+   "repo": "",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-github"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-github"
+  },
+  {
+   "name": "@modelcontextprotocol/server-gitlab",
+   "eco": "npm",
+   "desc": "MCP server for using the GitLab API",
+   "repo": "",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-gitlab"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-gitlab"
+  },
+  {
+   "name": "@mui/mcp",
+   "eco": "npm",
+   "desc": "MUI MCP Server",
+   "repo": "https://github.com/mui/mui-x",
+   "monthly": 46639,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mui/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@mui/mcp"
+  },
+  {
+   "name": "@nexus2520/bitbucket-mcp-server",
+   "eco": "npm",
+   "desc": "MCP server for Bitbucket API integration - supports both Cloud and Server",
+   "repo": "https://github.com/pdogra1299/bitbucket-mcp-server",
+   "monthly": 32038,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@nexus2520/bitbucket-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@nexus2520/bitbucket-mcp-server"
+  },
+  {
+   "name": "@openzeppelin/contracts-mcp",
+   "eco": "npm",
+   "desc": "OpenZeppelin Contracts MCP Server",
+   "repo": "https://github.com/OpenZeppelin/contracts-wizard",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@openzeppelin/contracts-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@openzeppelin/contracts-mcp"
+  },
+  {
+   "name": "@pandacss/mcp",
+   "eco": "npm",
+   "desc": "MCP server for Panda CSS AI assistants",
+   "repo": "https://github.com/chakra-ui/panda",
+   "monthly": 889530,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@pandacss/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@pandacss/mcp"
+  },
+  {
+   "name": "@postman/postman-mcp-server",
+   "eco": "npm",
+   "desc": "Postman MCP Server \u2014 connect AI agents (Claude Code, Cursor, VS Code Copilot, Gemini CLI) to your Postman collections, specifications, and environments via Mode",
+   "repo": "https://github.com/postmanlabs/postman-mcp-server",
+   "monthly": 30826,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@postman/postman-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@postman/postman-mcp-server"
+  },
+  {
+   "name": "@socketsecurity/mcp",
+   "eco": "npm",
+   "desc": "Socket MCP server for scanning dependencies",
+   "repo": "https://github.com/SocketDev/socket-mcp",
+   "monthly": 19676,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@socketsecurity/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@socketsecurity/mcp"
+  },
+  {
+   "name": "@storybook/mcp",
+   "eco": "npm",
+   "desc": "MCP server that serves knowledge about your components based on your Storybook stories and documentation",
+   "repo": "https://github.com/storybookjs/storybook",
+   "monthly": 8641872,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@storybook/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@storybook/mcp"
+  },
+  {
+   "name": "@togglhq/mcp",
+   "eco": "npm",
+   "desc": "Toggl 2.0 MCP server for Claude Code, Claude Desktop, and other MCP clients.",
+   "repo": "https://github.com/toggl/toggl-mcp",
+   "monthly": 57008,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@togglhq/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@togglhq/mcp"
+  },
+  {
+   "name": "@wonderwhy-er/desktop-commander",
+   "eco": "npm",
+   "desc": "MCP server for terminal operations and file editing",
+   "repo": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@wonderwhy-er/desktop-commander"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@wonderwhy-er/desktop-commander"
+  },
+  {
+   "name": "@zereight/mcp-gitlab",
+   "eco": "npm",
+   "desc": "GitLab MCP server for projects, merge requests, issues, pipelines, wiki, releases, and more",
+   "repo": "https://github.com/zereight/gitlab-mcp",
+   "monthly": 603953,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@zereight/mcp-gitlab"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@zereight/mcp-gitlab"
+  },
+  {
+   "name": "awslabs.cdk-mcp-server",
+   "eco": "pypi",
+   "desc": "An AWS CDK MCP server that provides guidance on AWS Cloud Development Kit best practices, infrastructure as code patterns, and security compliance with CDK Nag. This server offers tools to validate in",
+   "repo": "https://github.com/awslabs/mcp/issues",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "awslabs.cdk-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/awslabs.cdk-mcp-server/"
+  },
+  {
+   "name": "bitbucket-mcp",
+   "eco": "npm",
+   "desc": "Model Context Protocol (MCP) server for Bitbucket Cloud and Server API integration",
+   "repo": "https://github.com/MatanYemini/bitbucket-mcp",
+   "monthly": 18651,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "bitbucket-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/bitbucket-mcp"
+  },
+  {
+   "name": "figma-developer-mcp",
+   "eco": "npm",
+   "desc": "Give your coding agent access to your Figma data. Implement designs in any framework in one-shot.",
+   "repo": "https://github.com/GLips/Figma-Context-MCP",
+   "monthly": 361071,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "figma-developer-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/figma-developer-mcp"
+  },
+  {
+   "name": "mcp-server-code-runner",
+   "eco": "npm",
+   "desc": "Code Runner MCP Server",
+   "repo": "https://github.com/formulahendry/mcp-server-code-runner",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-server-code-runner"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-server-code-runner"
+  },
+  {
+   "name": "nx-mcp",
+   "eco": "npm",
+   "desc": "A Model Context Protocol server implementation for Nx",
+   "repo": "https://github.com/nrwl/nx-console",
+   "monthly": 280272,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "nx-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/nx-mcp"
+  },
+  {
+   "name": "semgrep-mcp",
+   "eco": "pypi",
+   "desc": "MCP Server for using Semgrep to scan code",
+   "repo": "https://github.com/semgrep/mcp/blob/main/CHANGELOG.md",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "semgrep-mcp"
+    ]
+   },
+   "source": "https://pypi.org/project/semgrep-mcp/"
+  },
+  {
+   "name": "serena-agent",
+   "eco": "pypi",
+   "desc": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities - the IDE for your agent",
+   "repo": "https://github.com/oraios/serena",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "serena-agent"
+    ]
+   },
+   "source": "https://pypi.org/project/serena-agent/"
+  },
+  {
+   "name": "sonarqube-mcp-server",
+   "eco": "npm",
+   "desc": "Model Context Protocol server for SonarQube",
+   "repo": "https://github.com/sapientpants/sonarqube-mcp-server",
+   "monthly": null,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "sonarqube-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/sonarqube-mcp-server"
+  },
+  {
+   "name": "ssh-mcp",
+   "eco": "npm",
+   "desc": "MCP server exposing policy-gated, audited SSH access for Linux and Windows hosts via the Model Context Protocol.",
+   "repo": "https://github.com/tufantunc/ssh-mcp",
+   "monthly": 31824,
+   "category": "Developer & Code",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "ssh-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/ssh-mcp"
+  },
+  {
+   "name": "@arizeai/phoenix-mcp",
+   "eco": "npm",
+   "desc": "A MCP server for Arize Phoenix",
+   "repo": "https://github.com/Arize-ai/phoenix",
+   "monthly": null,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@arizeai/phoenix-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@arizeai/phoenix-mcp"
+  },
+  {
+   "name": "@last9/mcp-server",
+   "eco": "npm",
+   "desc": "Last9 MCP Server - Model Context Protocol server implementation for Last9",
+   "repo": "https://github.com/last9/last9-mcp-server",
+   "monthly": null,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@last9/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@last9/mcp-server"
+  },
+  {
+   "name": "@launchdarkly/mcp-server",
+   "eco": "npm",
+   "desc": "The local [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for [LaunchDarkly](https://launchdarkly.com/) federal and European Union (EU)",
+   "repo": "https://github.com/launchdarkly/mcp-server",
+   "monthly": 174417,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@launchdarkly/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@launchdarkly/mcp-server"
+  },
+  {
+   "name": "@microsoft/clarity-mcp-server",
+   "eco": "npm",
+   "desc": "MCP Server for Microsoft Clarity based on data export API",
+   "repo": "https://github.com/microsoft/clarity-mcp-server",
+   "monthly": 45371,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@microsoft/clarity-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@microsoft/clarity-mcp-server"
+  },
+  {
+   "name": "@raygun.io/mcp-server-raygun",
+   "eco": "npm",
+   "desc": "MCP Server for Raygun's API V3 endpoints for interacting with your Crash Reporting and Real User Monitoring applications",
+   "repo": "",
+   "monthly": null,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@raygun.io/mcp-server-raygun"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@raygun.io/mcp-server-raygun"
+  },
+  {
+   "name": "@rollbar/mcp-server",
+   "eco": "npm",
+   "desc": "Model Context Protocol server for Rollbar",
+   "repo": "https://github.com/rollbar/rollbar-mcp-server",
+   "monthly": 22772,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@rollbar/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@rollbar/mcp-server"
+  },
+  {
+   "name": "@sentry/mcp-server",
+   "eco": "npm",
+   "desc": "Sentry MCP Server",
+   "repo": "https://github.com/getsentry/sentry-mcp",
+   "monthly": 474290,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@sentry/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@sentry/mcp-server"
+  },
+  {
+   "name": "@unleash/mcp",
+   "eco": "npm",
+   "desc": "MCP server for managing Unleash feature flags",
+   "repo": "https://github.com/Unleash/unleash-mcp",
+   "monthly": 38739,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@unleash/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@unleash/mcp"
+  },
+  {
+   "name": "@winor30/mcp-server-datadog",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Datadog API",
+   "repo": "https://github.com/winor30/mcp-server-datadog",
+   "monthly": 122248,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@winor30/mcp-server-datadog"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@winor30/mcp-server-datadog"
+  },
+  {
+   "name": "firehydrant-mcp",
+   "eco": "npm",
+   "desc": "Model Context Protocol (MCP) Server for the *FireHydrant* API.",
+   "repo": "https://github.com/firehydrant/firehydrant-mcp",
+   "monthly": 11621,
+   "category": "Observability",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "firehydrant-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/firehydrant-mcp"
+  },
+  {
+   "name": "mcp-grafana",
+   "eco": "pypi",
+   "desc": "Grafana MCP server - interact with Grafana via the Model Context Protocol",
+   "repo": "https://github.com/grafana/mcp-grafana",
+   "monthly": null,
+   "category": "Observability",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-grafana"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-grafana/"
+  },
+  {
+   "name": "mcp-server-sentry",
+   "eco": "pypi",
+   "desc": "MCP server for retrieving issues from sentry.io",
+   "repo": "",
+   "monthly": null,
+   "category": "Observability",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-sentry"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-server-sentry/"
+  },
+  {
+   "name": "@aashari/mcp-server-atlassian-confluence",
+   "eco": "npm",
+   "desc": "Node.js/TypeScript MCP server for Atlassian Confluence. Provides tools enabling AI systems (LLMs) to list/get spaces & pages (content formatted as Markdown) and",
+   "repo": "https://github.com/aashari/mcp-server-atlassian-confluence",
+   "monthly": 30800,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@aashari/mcp-server-atlassian-confluence"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@aashari/mcp-server-atlassian-confluence"
+  },
+  {
+   "name": "@atlassian-dc-mcp/jira",
+   "eco": "npm",
+   "desc": "Community-maintained MCP server for Atlassian Jira Data Center. Not affiliated with Atlassian.",
+   "repo": "https://github.com/b1ff/atlassian-dc-mcp",
+   "monthly": 25732,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@atlassian-dc-mcp/jira"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@atlassian-dc-mcp/jira"
+  },
+  {
+   "name": "@automattic/mcp-wordpress-remote",
+   "eco": "npm",
+   "desc": "MCP WordPress Remote proxy server",
+   "repo": "https://github.com/Automattic/mcp-wordpress-remote",
+   "monthly": 105445,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@automattic/mcp-wordpress-remote"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@automattic/mcp-wordpress-remote"
+  },
+  {
+   "name": "@cocal/google-calendar-mcp",
+   "eco": "npm",
+   "desc": "Google Calendar MCP Server with extensive support for calendar management",
+   "repo": "https://github.com/nspady/google-calendar-mcp",
+   "monthly": 36840,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@cocal/google-calendar-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@cocal/google-calendar-mcp"
+  },
+  {
+   "name": "@contentful/mcp-server",
+   "eco": "npm",
+   "desc": "Contentful MCP Server - Model Context Protocol server for Contentful",
+   "repo": "https://github.com/contentful/contentful-mcp-server",
+   "monthly": 35225,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@contentful/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@contentful/mcp-server"
+  },
+  {
+   "name": "@delorenj/mcp-server-trello",
+   "eco": "npm",
+   "desc": "An MCP server for Trello boards, powered by Bun for maximum performance.",
+   "repo": "https://github.com/delorenj/mcp-server-trello",
+   "monthly": 12496,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@delorenj/mcp-server-trello"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@delorenj/mcp-server-trello"
+  },
+  {
+   "name": "@discourse/mcp",
+   "eco": "npm",
+   "desc": "Discourse MCP CLI server (stdio) exposing Discourse tools via MCP",
+   "repo": "https://github.com/discourse/discourse-mcp",
+   "monthly": 65974,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@discourse/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@discourse/mcp"
+  },
+  {
+   "name": "@doist/todoist-mcp",
+   "eco": "npm",
+   "desc": "The official Todoist MCP server",
+   "repo": "https://github.com/Doist/todoist-mcp",
+   "monthly": 20574,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@doist/todoist-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@doist/todoist-mcp"
+  },
+  {
+   "name": "@gleanwork/local-mcp-server",
+   "eco": "npm",
+   "desc": "MCP server for Glean API integration",
+   "repo": "https://github.com/gleanwork/mcp-server",
+   "monthly": null,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@gleanwork/local-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@gleanwork/local-mcp-server"
+  },
+  {
+   "name": "@gongrzhe/server-gmail-autoauth-mcp",
+   "eco": "npm",
+   "desc": "Gmail MCP server with auto authentication support",
+   "repo": "https://github.com/gongrzhe/server-gmail-autoauth-mcp",
+   "monthly": 64405,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@gongrzhe/server-gmail-autoauth-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@gongrzhe/server-gmail-autoauth-mcp"
+  },
+  {
+   "name": "@isaacphi/mcp-gdrive",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Google Drive and Sheets",
+   "repo": "https://github.com/isaacphi/mcp-gdrive",
+   "monthly": 23133,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@isaacphi/mcp-gdrive"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@isaacphi/mcp-gdrive"
+  },
+  {
+   "name": "@kintone/mcp-server",
+   "eco": "npm",
+   "desc": "The official MCP Server for kintone",
+   "repo": "https://github.com/kintone/mcp-server",
+   "monthly": null,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@kintone/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@kintone/mcp-server"
+  },
+  {
+   "name": "@mailgun/mcp-server",
+   "eco": "npm",
+   "desc": "An MCP server that gives AI agents a practical interface to Mailgun workflows for sending, diagnosing deliverability, and taking account actions safely.",
+   "repo": "https://github.com/mailgun/mailgun-mcp-server",
+   "monthly": 8161,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mailgun/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@mailgun/mcp-server"
+  },
+  {
+   "name": "@modelcontextprotocol/server-gdrive",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Google Drive",
+   "repo": "",
+   "monthly": null,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-gdrive"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-gdrive"
+  },
+  {
+   "name": "@modelcontextprotocol/server-slack",
+   "eco": "npm",
+   "desc": "MCP server for interacting with Slack",
+   "repo": "",
+   "monthly": null,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-slack"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-slack"
+  },
+  {
+   "name": "@mondaydotcomorg/monday-api-mcp",
+   "eco": "npm",
+   "desc": "MCP server for using the monday.com API",
+   "repo": "https://github.com/mondaycom/mcp",
+   "monthly": null,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mondaydotcomorg/monday-api-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@mondaydotcomorg/monday-api-mcp"
+  },
+  {
+   "name": "@notionhq/notion-mcp-server",
+   "eco": "npm",
+   "desc": "Official MCP server for Notion API",
+   "repo": "https://github.com/makenotion/notion-mcp-server",
+   "monthly": 747762,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@notionhq/notion-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@notionhq/notion-mcp-server"
+  },
+  {
+   "name": "@piotr-agier/google-drive-mcp",
+   "eco": "npm",
+   "desc": "Secure access to Google Drive, Docs, Sheets, Slides, and Calendar through MCP.",
+   "repo": "https://github.com/piotr-agier/google-drive-mcp",
+   "monthly": 22471,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@piotr-agier/google-drive-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@piotr-agier/google-drive-mcp"
+  },
+  {
+   "name": "@roychri/mcp-server-asana",
+   "eco": "npm",
+   "desc": "MCP Server for Asana",
+   "repo": "https://github.com/roychri/mcp-server-asana",
+   "monthly": 11885,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@roychri/mcp-server-asana"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@roychri/mcp-server-asana"
+  },
+  {
+   "name": "@shortcut/mcp",
+   "eco": "npm",
+   "desc": "Shortcut MCP Server",
+   "repo": "https://github.com/useshortcut/mcp-server-shortcut",
+   "monthly": 58122,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@shortcut/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@shortcut/mcp"
+  },
+  {
+   "name": "@softeria/ms-365-mcp-server",
+   "eco": "npm",
+   "desc": "A Model Context Protocol (MCP) server for interacting with Microsoft 365 and Office services through the Graph API",
+   "repo": "https://github.com/Softeria/ms-365-mcp-server",
+   "monthly": 233004,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@softeria/ms-365-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@softeria/ms-365-mcp-server"
+  },
+  {
+   "name": "mcp-atlassian",
+   "eco": "npm",
+   "desc": "MCP server for Atlassian (Confluence and Jira) integration",
+   "repo": "https://github.com/Vijay-Duke/mcp-atlassian",
+   "monthly": 15934,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-atlassian"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-atlassian"
+  },
+  {
+   "name": "mcp-obsidian",
+   "eco": "npm",
+   "desc": "Model Context Protocol server for Obsidian Vaults",
+   "repo": "",
+   "monthly": null,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-obsidian"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-obsidian"
+  },
+  {
+   "name": "slack-mcp-server",
+   "eco": "npm",
+   "desc": "Model Context Protocol (MCP) server for Slack Workspaces. This integration supports both Stdio and SSE transports, proxy settings and does not require any permi",
+   "repo": "https://github.com/korotovsky/slack-mcp-server",
+   "monthly": 133391,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "slack-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/slack-mcp-server"
+  },
+  {
+   "name": "zotero-mcp",
+   "eco": "pypi",
+   "desc": "Model Context Protocol server for Zotero",
+   "repo": "https://github.com/kujenga/zotero-mcp/issues",
+   "monthly": null,
+   "category": "Productivity & Collaboration",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "zotero-mcp"
+    ]
+   },
+   "source": "https://pypi.org/project/zotero-mcp/"
+  },
+  {
+   "name": "@aashari/mcp-server-atlassian-jira",
+   "eco": "npm",
+   "desc": "Node.js/TypeScript MCP server for Atlassian Jira. Equips AI systems (LLMs) with tools to list/get projects, search/get issues (using JQL/ID), and view dev info",
+   "repo": "https://github.com/aashari/mcp-server-atlassian-jira",
+   "monthly": 61065,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@aashari/mcp-server-atlassian-jira"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@aashari/mcp-server-atlassian-jira"
+  },
+  {
+   "name": "@agentdeskai/browser-tools-mcp",
+   "eco": "npm",
+   "desc": "MCP server exposing live browser telemetry (console logs, network requests, screenshots, Lighthouse audits) from your real Chrome session",
+   "repo": "https://github.com/AgentDeskAI/browser-tools-mcp",
+   "monthly": 16008,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@agentdeskai/browser-tools-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@agentdeskai/browser-tools-mcp"
+  },
+  {
+   "name": "@apify/actors-mcp-server",
+   "eco": "npm",
+   "desc": "Apify MCP Server",
+   "repo": "https://github.com/apify/apify-mcp-server",
+   "monthly": 105326,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@apify/actors-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@apify/actors-mcp-server"
+  },
+  {
+   "name": "@brave/brave-search-mcp-server",
+   "eco": "npm",
+   "desc": "Brave Search MCP Server: web results, images, videos, rich results, AI summaries, and more.",
+   "repo": "https://github.com/brave/brave-search-mcp-server",
+   "monthly": 93278,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@brave/brave-search-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@brave/brave-search-mcp-server"
+  },
+  {
+   "name": "@brightdata/mcp",
+   "eco": "npm",
+   "desc": "An MCP interface into the Bright Data toolset",
+   "repo": "https://github.com/brightdata/brightdata-mcp",
+   "monthly": 51178,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@brightdata/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@brightdata/mcp"
+  },
+  {
+   "name": "@browserbasehq/mcp",
+   "eco": "npm",
+   "desc": "MCP server for AI web browser automation using Browserbase and Stagehand",
+   "repo": "https://github.com/browserbase/mcp-server-browserbase",
+   "monthly": 61894,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@browserbasehq/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@browserbasehq/mcp"
+  },
+  {
+   "name": "@browsermcp/mcp",
+   "eco": "npm",
+   "desc": "MCP server for browser automation using Browser MCP",
+   "repo": "https://github.com/BrowserMCP/mcp",
+   "monthly": 65450,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@browsermcp/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@browsermcp/mcp"
+  },
+  {
+   "name": "@browserstack/mcp-server",
+   "eco": "npm",
+   "desc": "BrowserStack's Official MCP Server",
+   "repo": "https://github.com/browserstack/mcp-server",
+   "monthly": 92370,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@browserstack/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@browserstack/mcp-server"
+  },
+  {
+   "name": "@elastic/mcp-server-elasticsearch",
+   "eco": "npm",
+   "desc": "Elasticsearch MCP Server",
+   "repo": "https://github.com/elastic/mcp-server-elasticsearch",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@elastic/mcp-server-elasticsearch"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@elastic/mcp-server-elasticsearch"
+  },
+  {
+   "name": "@ericthered926/duckduckgo-mcp-server",
+   "eco": "npm",
+   "desc": "A Model Context Protocol (MCP) server for DuckDuckGo web and news search",
+   "repo": "https://github.com/ericthered926/duckduckgo-mcp-server",
+   "monthly": 124871,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@ericthered926/duckduckgo-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@ericthered926/duckduckgo-mcp-server"
+  },
+  {
+   "name": "@j0hanz/fetch-url-mcp",
+   "eco": "npm",
+   "desc": "An MCP server that fetches web pages and converts them to clean, readable Markdown.",
+   "repo": "https://github.com/j0hanz/fetch-url-mcp",
+   "monthly": 15359,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@j0hanz/fetch-url-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@j0hanz/fetch-url-mcp"
+  },
+  {
+   "name": "@kazuph/mcp-fetch",
+   "eco": "npm",
+   "desc": "A Model Context Protocol server that provides web content fetching capabilities with automatic image saving and optional AI display",
+   "repo": "https://github.com/kazuph/mcp-fetch",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@kazuph/mcp-fetch"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@kazuph/mcp-fetch"
+  },
+  {
+   "name": "@modelcontextprotocol/server-brave-search",
+   "eco": "npm",
+   "desc": "MCP server for Brave Search API integration",
+   "repo": "",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-brave-search"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-brave-search"
+  },
+  {
+   "name": "@modelcontextprotocol/server-puppeteer",
+   "eco": "npm",
+   "desc": "MCP server for browser automation using Puppeteer",
+   "repo": "",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-puppeteer"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-puppeteer"
+  },
+  {
+   "name": "@mozilla/firefox-devtools-mcp-moz",
+   "eco": "npm",
+   "desc": "Model Context Protocol (MCP) server that lets AI agents browse the web and debug web pages with Firefox (moz build with privileged context support)",
+   "repo": "https://github.com/mozilla/firefox-devtools-mcp",
+   "monthly": 14236,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mozilla/firefox-devtools-mcp-moz"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@mozilla/firefox-devtools-mcp-moz"
+  },
+  {
+   "name": "@mzxrai/mcp-webresearch",
+   "eco": "npm",
+   "desc": "MCP server for web research",
+   "repo": "",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@mzxrai/mcp-webresearch"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@mzxrai/mcp-webresearch"
+  },
+  {
+   "name": "@perplexity-ai/mcp-server",
+   "eco": "npm",
+   "desc": "Real-time web search, reasoning, and research through Perplexity's API",
+   "repo": "https://github.com/perplexityai/modelcontextprotocol",
+   "monthly": 59766,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@perplexity-ai/mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@perplexity-ai/mcp-server"
+  },
+  {
+   "name": "@tacticlaunch/mcp-linear",
+   "eco": "npm",
+   "desc": "A Model Context Protocol (MCP) server implementation for the Linear GraphQL API that enables AI assistants to manage Linear projects and search issues by text,",
+   "repo": "https://github.com/tacticlaunch/mcp-linear",
+   "monthly": 131327,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@tacticlaunch/mcp-linear"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@tacticlaunch/mcp-linear"
+  },
+  {
+   "name": "@upstash/redis-mcp",
+   "eco": "npm",
+   "desc": "MCP server for Upstash Redis \u2014 run Redis commands and look up Upstash Redis Search docs over HTTP or TCP",
+   "repo": "https://github.com/upstash/redis-mcp",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@upstash/redis-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@upstash/redis-mcp"
+  },
+  {
+   "name": "@zenrows/mcp",
+   "eco": "npm",
+   "desc": "Zenrows MCP server: Fetch, Extract, Batch, and Browser Sessions for AI agents",
+   "repo": "https://github.com/ZenRows/zenrows-mcp",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@zenrows/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@zenrows/mcp"
+  },
+  {
+   "name": "arxiv-mcp-server",
+   "eco": "pypi",
+   "desc": "A flexible arXiv search and analysis service with MCP protocol support",
+   "repo": "https://github.com/blazickjp/arxiv-mcp-server#readme",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "arxiv-mcp-server"
+    ]
+   },
+   "source": "https://pypi.org/project/arxiv-mcp-server/"
+  },
+  {
+   "name": "exa-mcp-server",
+   "eco": "npm",
+   "desc": "Connect AI agents to Exa for web search, content fetching, and multi-step research.",
+   "repo": "https://github.com/exa-labs/exa-mcp-server",
+   "monthly": 66238,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "exa-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/exa-mcp-server"
+  },
+  {
+   "name": "firecrawl-mcp",
+   "eco": "npm",
+   "desc": "Firecrawl MCP server, the context API for AI agents: search, scrape, parse, crawl, map, and interact with the web, run Agent and Monitor jobs, and search scient",
+   "repo": "https://github.com/firecrawl/firecrawl-mcp-server",
+   "monthly": 604592,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "firecrawl-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/firecrawl-mcp"
+  },
+  {
+   "name": "mcp-accessibility-scanner",
+   "eco": "npm",
+   "desc": "A Model Context Protocol (MCP) server for performing automated accessibility scans of web pages using Playwright and Axe-core",
+   "repo": "https://github.com/JustasMonkev/mcp-accessibility-scanner",
+   "monthly": 50969,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-accessibility-scanner"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-accessibility-scanner"
+  },
+  {
+   "name": "mcp-fetch-server",
+   "eco": "npm",
+   "desc": "MCP server and CLI for fetching web content as HTML, Markdown, plain text, JSON, or YouTube transcripts",
+   "repo": "https://github.com/zcaceres/fetch-mcp",
+   "monthly": 22174,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-fetch-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-fetch-server"
+  },
+  {
+   "name": "mcp-local-rag",
+   "eco": "npm",
+   "desc": "Local RAG MCP Server - Easy-to-setup document search with minimal configuration",
+   "repo": "https://github.com/shinpr/mcp-local-rag",
+   "monthly": 18523,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-local-rag"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-local-rag"
+  },
+  {
+   "name": "mcp-searxng",
+   "eco": "npm",
+   "desc": "MCP server for SearXNG integration",
+   "repo": "https://github.com/ihor-sokoliuk/mcp-searxng",
+   "monthly": 46147,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "mcp-searxng"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/mcp-searxng"
+  },
+  {
+   "name": "mcp-server-fetch",
+   "eco": "pypi",
+   "desc": "A Model Context Protocol server providing tools to fetch and convert web content for usage by LLMs",
+   "repo": "https://github.com/modelcontextprotocol/servers/issues",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-fetch"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-server-fetch/"
+  },
+  {
+   "name": "mcp-server-git",
+   "eco": "pypi",
+   "desc": "A Model Context Protocol server providing tools to read, search, and manipulate Git repositories programmatically via LLMs",
+   "repo": "https://github.com/modelcontextprotocol/servers/issues",
+   "monthly": null,
+   "category": "Search & Web",
+   "install": {
+    "command": "uvx",
+    "args": [
+     "mcp-server-git"
+    ]
+   },
+   "source": "https://pypi.org/project/mcp-server-git/"
+  },
+  {
+   "name": "notion-mcp-server",
+   "eco": "npm",
+   "desc": "Notion MCP server with token auth: connect Claude Code, Claude Desktop, Cursor, VS Code, Codex and any MCP client to Notion. Search, create and edit pages, quer",
+   "repo": "https://github.com/awkoy/notion-mcp-server",
+   "monthly": 13511,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "notion-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/notion-mcp-server"
+  },
+  {
+   "name": "obsidian-mcp-server",
+   "eco": "npm",
+   "desc": "Read, write, search, and surgically edit Obsidian vault notes, tags, and frontmatter via MCP. STDIO or Streamable HTTP.",
+   "repo": "https://github.com/cyanheads/obsidian-mcp-server",
+   "monthly": 20870,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "obsidian-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/obsidian-mcp-server"
+  },
+  {
+   "name": "octocode-mcp",
+   "eco": "npm",
+   "desc": "Model Context Protocol (MCP) server for advanced GitHub repository analysis and code discovery. Provides AI assistants with powerful tools to search, analyze, a",
+   "repo": "https://github.com/bgauryy/octocode",
+   "monthly": 19197,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "octocode-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/octocode-mcp"
+  },
+  {
+   "name": "puppeteer-mcp-server",
+   "eco": "npm",
+   "desc": "Experimental MCP server for browser automation using Puppeteer (inspired by @modelcontextprotocol/server-puppeteer)",
+   "repo": "https://github.com/merajmehrabi/puppeteer-mcp-server",
+   "monthly": 10891,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "puppeteer-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/puppeteer-mcp-server"
+  },
+  {
+   "name": "serper-search-scrape-mcp-server",
+   "eco": "npm",
+   "desc": "Serper MCP Server supporting search and webpage scraping",
+   "repo": "https://github.com/marcopesani/mcp-server-serper",
+   "monthly": 20166,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "serper-search-scrape-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/serper-search-scrape-mcp-server"
+  },
+  {
+   "name": "tavily-mcp",
+   "eco": "npm",
+   "desc": "MCP server for advanced web search using Tavily",
+   "repo": "https://github.com/tavily-ai/tavily-mcp",
+   "monthly": 79201,
+   "category": "Search & Web",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "tavily-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/tavily-mcp"
+  },
+  {
+   "name": "@auth0/auth0-mcp-server",
+   "eco": "npm",
+   "desc": "Auth0 Model Context Protocol (MCP) Server (Beta) \u2014 A secure and extendable implementation of an MCP server that provides AI assistants with controlled access to",
+   "repo": "https://github.com/auth0/auth0-mcp-server",
+   "monthly": 35761,
+   "category": "Utilities",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@auth0/auth0-mcp-server"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@auth0/auth0-mcp-server"
+  },
+  {
+   "name": "@currents/mcp",
+   "eco": "npm",
+   "desc": "Currents MCP server",
+   "repo": "https://github.com/currents-dev/currents-mcp",
+   "monthly": null,
+   "category": "Utilities",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@currents/mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@currents/mcp"
+  },
+  {
+   "name": "@modelcontextprotocol/server-filesystem",
+   "eco": "npm",
+   "desc": "MCP server for filesystem access",
+   "repo": "https://github.com/modelcontextprotocol/servers",
+   "monthly": 2649073,
+   "category": "Utilities",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "@modelcontextprotocol/server-filesystem"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/@modelcontextprotocol/server-filesystem"
+  },
+  {
+   "name": "n8n-mcp",
+   "eco": "npm",
+   "desc": "Integration between n8n workflow automation and Model Context Protocol (MCP)",
+   "repo": "https://github.com/czlonkowski/n8n-mcp",
+   "monthly": 298715,
+   "category": "Utilities",
+   "install": {
+    "command": "npx",
+    "args": [
+     "-y",
+     "n8n-mcp"
+    ]
+   },
+   "source": "https://www.npmjs.com/package/n8n-mcp"
+  }
+ ]
+}

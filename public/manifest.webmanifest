@@ -1,0 +1,3 @@
+{ "name": "Halyard Agent Workbench", "short_name": "Halyard", "start_url": "/", "display": "standalone",
+  "background_color": "#0f1424", "theme_color": "#17203a",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }] }
