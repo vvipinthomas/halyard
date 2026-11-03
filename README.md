@@ -86,6 +86,8 @@ npx wrangler deploy
 
 See [docs/deploy-cloudflare.md](docs/deploy-cloudflare.md).
 
+> On npm 11+, install scripts are off by default. Halyard itself doesn't need them (`better-sqlite3` ships prebuilt binaries), but `wrangler` does. If a `wrangler` command complains about esbuild or workerd, run `npm install-scripts approve esbuild workerd` and then `npm rebuild`.
+
 ## 🖼️ A quick tour
 
 | | |
